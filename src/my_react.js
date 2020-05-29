@@ -18,4 +18,4 @@ class Banner extends React.Component {
    }
 };
 
-ReactDOM.render(<Banner />, document.getElementById('container');
+ReactDOM.render(<Banner />, document.getElementById('container'));
