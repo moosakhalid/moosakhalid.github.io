@@ -1,7 +1,5 @@
 'use strict';
 
-import PropTypes from 'prop-types';
-
 class Banner extends React.Component {
    constructor(props) {
       super(props);
@@ -18,6 +16,7 @@ class Banner extends React.Component {
 Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' };
 
 Banner.propTypes = { banner: PropTypes.string.isRequired };
+
 
 
 
