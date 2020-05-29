@@ -1,7 +1,7 @@
 'use strict';
 
 
-Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' }
+Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' };
 
 Banner.propTypes = { banner: PropTypes.string.isRequired };
 
