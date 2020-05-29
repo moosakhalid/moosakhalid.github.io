@@ -1,10 +1,5 @@
 'use strict';
 
-
-Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' };
-
-Banner.propTypes = { banner: PropTypes.string.isRequired };
-
 class Banner extends React.Component {
    constructor(props) {
       super(props);
@@ -17,5 +12,11 @@ class Banner extends React.Component {
       );
    }
 };
+
+Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' };
+
+Banner.propTypes = { banner: PropTypes.string.isRequired };
+
+
 
 ReactDOM.render(<Banner />, document.getElementById('container'));
