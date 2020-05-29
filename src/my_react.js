@@ -1,5 +1,7 @@
 'use strict';
 
+import PropTypes from 'prop-types';
+
 class Banner extends React.Component {
    constructor(props) {
       super(props);
