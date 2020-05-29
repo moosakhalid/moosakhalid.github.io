@@ -1,6 +1,5 @@
 'use strict';
-import ReactDOM from "react-dom";
-import PropTypes from "prop-types";
+
 
 Banner.defaultProps = { banner: 'Site under construction: moosakhalid.com' };
 
